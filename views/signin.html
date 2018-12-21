@@ -48,7 +48,7 @@
             $.post("/signin", formdata, function (data) {
                 console.log(data);
                 if(data.code == 200) {
-                    // window.location.href = "/";
+                    window.location.href = "/";
                 }else {
                     alert(data.msg);
                 }
